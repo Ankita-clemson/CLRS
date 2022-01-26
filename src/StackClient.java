@@ -7,11 +7,11 @@ public class StackClient {
         obj.push(2);
         obj.push(3);
 
-        System.out.println("After pushing the stack:\n" + obj);
+        System.out.println("After pushing the stack:\n" + obj.toString());
 
         obj.pop();
 
-        System.out.println("After popping the stack:\n" + obj);
+        System.out.println("After popping the stack:\n" + obj.toString());
 
     }
 }

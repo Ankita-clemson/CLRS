@@ -52,10 +52,10 @@ public class StackImplementation<T> {
         String finalStack = "";
         for(int i=0;i<top;i++)
         {
-            finalStack += String.valueOf(al.get(top));
+            finalStack += String.valueOf(al.get(i))+ "->";
 
         }
-
+        finalStack += String.valueOf(al.get(top));
         return finalStack;
     }
 
